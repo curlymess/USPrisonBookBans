@@ -3,20 +3,52 @@
 <title>U.S. Prison Book Bans</title>
 
 <h1>U.S. Prison Book Bans</title>
+<p> data collected by <a href="https://observablehq.com/@themarshallproject/prison-banned-books">The Marshall Project </a></p>
 
-<h2>Intro</h2>
+<p>People may be familiar with controversial book bans happening in public schools and libraries all over the United States, but what about the even more restrictive, gate-keeping book bans occurring in prison? The Marshall Project has asked every state prison system for their book policies and list of banned publications. 24 states responded, but due to data quality issues or state policies only 14 states have their information available <a href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-list-find-your-state">here as a searchable table.</a><p>
 
-<p> <p>
+<p>There is some justification and reasoning for why some would want to restrict book content for young children in school libraries to not include adult content. But what about adults who live in America? Shouldn't there be a careful, nuanced approach taken when revoking someone's civil liberties? Even if they are a prison inmate, especially because they are an inmate? I choose to explore this dataset to get some kind of understanding about what kind of books are banned in prisons.</p>
 
-<h2>Line Chart</h2>
-<p> <p>
-
+<h2>Amount of Books Banned and Inconsistency</h2>
+<p>Each state has their own procedure and policies surrounding banning books, which is going to affect the quality of the data.<p>
+<p>Some states like Alaska prohibit making a list of excluded publications. Instead, it requires that each publication be reviewed individually and contains specific standards and criteria for excluding certain publications. If an incarcerated person disagrees with a decision, they can file a grievance within 15 days, using DOC Policy and Procedure (P&P) 808.03. If no grievance is filed, the prisoner may request the mode of disposal by the institution.</p>
+<p>Some states like Wisconsin have books banned since 1815 and then virtually no real kept records until the 2000s.</p>
+<p>Some states like Missouri keep records of all books that their officers evaluate, whether they are banned or not.</p>
+<p>All states keep poor records of what books are banned in their institutions. Yet, despite all that just from 14 states we have a database of over 50,000 banned books (excluding other forms of media).</p>
+<p>Interact with the line chart below to get a sense of just how books are banned each year in each state.</p>
+<p>This visual displays the years 2011 to 2022 because the quality of data severely dropped and amount greatly varied before. This is due to not digitizing the previous paper and pencil banned lists, poor record keeping, lack of scrutiny leading to no need for records for accountability, and recent changes in policy.</p>
+<p>The user can still see that a few states have records of banned books prior to 2011 due to the line escaping the y-axis.</p>
 <div id="observablehq-viewof-checkboxes-2b40c391"></div>
 
 <div id="observablehq-lineChart-2b40c391"></div>
 
-<h2>Bar Chart</h2>
-<p> <p>
+<p>Over 50,000 books banned, from self-help to cooking to religion to physical health to art, yet there is no accountability, standard or reason for how knowledge is denied.</p>
+
+<h2>Why do prisons ban books?</h2>
+<p>I delved deeper into the data to try and make sense of why and how books are banned in the penal system. I combed through the 50,000 entries and categorized their reasons for being banned. I came up with 16 different categories to summarize the data.</p>
+<p>Of the 14 states whose data is readable, only 8 provide accompanying reasons for their ban.</p>
+<table>
+    <tr>
+        <td>Provides Reason for Banning Books?</td>
+        <td>States</td>
+    </tr>
+    <tr>
+        <td>No</td>
+        <td>AZ, FL, IL, GA, NC, NJ, SC, OR, RI</td>
+    </tr>
+    <tr>
+        <td>Codes</td>
+        <td>IA, VA</td>
+    </tr>
+    <tr>
+        <td>Yes</td>
+        <td>CA, CT, KS, MT, MI, TX, WI</td>
+    </tr>
+    <tr>
+        <td>Yes but list contains all REVIEWED books,&lt;br&gt;not just banned ones</td>
+        <td>MO</td>
+    </tr>
+</table>
 
 <div id="observablehq-viewof-checkboxesBar-2b40c391"></div>
 
@@ -24,15 +56,41 @@
 
 <div id="observablehq-barChart-2b40c391"></div>
 
-<h2>Word Cloud</h2>
-<p> <p>
+<p>I found that prisons ban books because they are
+<ul>
+<li>"Inappropriate" and books contain pornography, gore, violence, etc</li>
+<li>"Hinders rehabilitation" - anything that would encourage someone to continue committing "criminal acts"</li>
+<li>related to minors</li>
+<li>deemed overtly racist or intolerant</li>
+<li>can aid in escape so the book can not contain any hints of maps, survival training, camping, escape, secret codes, etc</li>
+<li>related to gangs, tattoos, drugs, alcohol, or weapons</li>
+<li>anything violent or related to violence</li>
+<li>teach or advocate for criminal behavior</li>
+</ul>
+</p>
+<p>I also learned that prisons can ban books because they are
+<ul>
+<li>Legal Material - prisons can't provide legal material to inmates</li>
+<li>Role Playing - which specifically includes Dungeons & Dragons</li>
+<li>Workout/Exercise materials - because they are "related to physical violence"</li>
+<li>Works that include mention of Black Lives Matter or anything consider "Black Radicalism"</li>
+<li>Anything feminine or romantic in male prisons because why would they be interested?</li>
+<li>Guides to career paths such as real estate because they believe a former inmate is simply unable to do so</li>
+<li>Guides to investment or financial security because of a belief that inmates will never amass wealth</li>
+<li>Stories that negatively portray law enforcement, specifically stories that include a cop wrongfully shooting an unarmed Black man and prison guards abuse the inmates</li>
+</ul>
+</p>
 
 <div id="observablehq-viewof-checkboxesCloud-2b40c391"></div>
 
 <div id="observablehq-wordcloudChart-2b40c391"></div>
 
+<h2>Conclusion</h2>
+<p>After my data exploration I have come to the conclusion that prison book bans are arbitrary and only serve as a further means of oppression while in the penal system. I have found no real policies, no guidelines, and a lot of commentary and subjective opinions made by reviewing guards.<p>
+<p>For more about banned books and why they matter, read more on <a href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-new-york-florida-censorship">prison censorship and the futility of restricting what people read behind bars.</a><p>
+
 <h2>Data and Methods</h2>
-<p> <p>
+<p>All data collected by <a href="https://observablehq.com/@themarshallproject/prison-banned-books">The Marshall Project </a>. I used excel, tableu, and observable to explore, filter, code, categorize and clean the data in order to create insights and visuals.</p>
 
 <p>Visuals created with <a href="https://observablehq.com/@nfakih/prison-book-bans">this Observable notebook</a></p>
 
