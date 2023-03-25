@@ -65,12 +65,12 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-input, select, textarea {
+/* input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
 
@@ -2208,7 +2208,7 @@ input, select, textarea {
 		min-height: 3.75em;
 	}
 
-	input[type="checkbox"],
+	/* input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2220,9 +2220,9 @@ input, select, textarea {
 		opacity: 0;
 		width: 1em;
 		z-index: -1;
-	}
+	} */
 
-		input[type="checkbox"] + label,
+		/* input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #585858;
@@ -2281,7 +2281,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label:before {
 		border-radius: 4px;
-	}
+	} */
 
 	input[type="radio"] + label:before {
 		border-radius: 100%;
